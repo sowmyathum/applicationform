@@ -1,0 +1,121 @@
+<html>
+    <head>
+        <title>Home Page</title>
+    </head>
+    <style>
+        body{
+            background-color:#2f4050;
+            align-items: center;
+        }
+        form{
+            float: right;
+            margin-right:30px;
+            border-radius: 12px;    
+            border:2px solid ;
+            width:50%;
+            background-color:#FFFFFF;
+            padding-left: 12px;
+            padding-right: 12px;
+            height: 660px;;     
+        }
+        .inp{
+            float: right ;
+            margin-right: 80px;
+            width: 400px;
+            height: 30px;
+            font-size: 15px;
+            border: 2px solid grey;
+            border-radius: 3px;
+        }
+        label{
+            color: black;
+             float: left;
+            font-size: 20px;
+            
+        }
+
+        #submit{
+            height: 40px;
+            width: 120px;
+            font-size: 22px;
+            background-color: #32396D;
+            color: white;
+            cursor: pointer;
+            border: none;
+            border-radius: 12px;
+        }
+        
+        
+    </style>    
+    <body>  
+
+        <center><h1 style="color: white;font-size: 40px;padding: 0%;"><em>Kickstart Your Career Here!!</em></h1></center>
+        <center><p style="color: white;margin-left: 300px;font-size: 24px;"><em>- Opportunity awaits — tell us about yourself</em></p></center>
+        <img src="https://media.istockphoto.com/id/1394701218/photo/job-search-concept-find-your-career-woman-looking-at-online-website-by-laptop-computer-people.jpg?s=612x612&w=0&k=20&c=V32cT3dAoI7plQSnV-i7YxP43YvaoyA0jLS4729gNWM=" width="44%" height="82.75%" style="border-radius: 10px;margin-left: 20px;">
+            
+            <form>
+                <center><h1 style="color: #32396D;font-size: 34px;">Registration Form</h1></center>
+                
+                <label>First Name</label>
+                <input class="inp"  type="text" required placeholder="Enter First Name"><br><br><br>
+                <label>Last Name</label>
+                <input class="inp" type="text" required placeholder="Enter Last Name"><br><br>
+                
+                <label>Gender</label>
+                <div style="display: flex; float: right; margin-right: 280px;">
+                <input type="radio"  name="gender" >
+                <label for="male">Male</label><br>
+
+                <input type="radio"  name="gender" >
+                <label for="female">Female</label><br>
+
+                <input type="radio" id="other" name="gender" >
+                <label for="other">Other</label>
+                </div>
+                <br><br>
+                <label>Mobile</label>
+                <input class="inp" type="number" required placeholder="Enter your Mobile Number"><br><br><br>
+                
+                <label>Email</label>
+                <input class="inp" type="email" required placeholder="Enter Email ID"><br><br><br>
+
+                <label>Skills</label>
+                <div style="display: flex; float: right; margin-right: 10px;">
+                <input type="checkbox"  name="skills" >
+                <label for="Java">Java</label><br>
+
+                <input type="checkbox"  name="skills"   >
+                <label for="UI">UI module</label>
+
+                <input type="checkbox" name="skills" >
+                <label for="Python">Python</label>
+            
+                <input type="checkbox" name="skills" >
+                <label for="React">React</label>
+                <input type="checkbox" name="skills" >
+                <label for="Testing">Testing</label>
+                <input type="checkbox" name="skills" >
+                <label for="Angular">Angular</label>
+                <input type="checkbox" name="skills" >
+                <label for="Oracle">Oracle</label>
+
+                </div>
+                <br><br>
+
+                <label>Address </label>
+                <input class="inp" type="text" required placeholder="Enter your Address"><br><br><br>
+                <label>Create Password</label>
+                <input class="inp" type="password" required placeholder="Enter your Password"><br><br><br>
+                <label>Confirm Password</label>
+                <input class="inp" type="password" required placeholder="Re-enter your Password"><br><br><br>
+                <label>Date of Birth</label>
+                <input class="inp" type="date" required placeholder="Select your DOB"><br><br><br>
+
+                <center><input id="submit" type="submit"> </center>  
+
+            </form> 
+
+        
+
+    </body>
+</html>
