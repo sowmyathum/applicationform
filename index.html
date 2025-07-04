@@ -5,26 +5,27 @@
     <style>
         body{
             background-color:#2f4050;
-            align-items: center;
+            
         }
         form{
+            border: none;
             float: right;
             margin-right:30px;
             border-radius: 12px;    
-            border:2px solid ;
+            
             width:50%;
             background-color:#FFFFFF;
             padding-left: 12px;
             padding-right: 12px;
-            height: 83%;;     
+            height: 84%;;     
         }
         .inp{
             float: right ;
             margin-right: 80px;
             width: 400px;
-            height: 30px;
+            height: 33px;
             font-size: 15px;
-            border: 2px solid grey;
+            border: 2px solid black;
             border-radius: 3px;
         }
         label{
@@ -36,7 +37,7 @@
         }
 
         #submit{
-            height: 43px;
+            height: 39px;
             width: 120px;
             font-size: 22px;
             background-color: #2f4050;
@@ -50,14 +51,16 @@
     </style>    
     <body>  
 
-        <center><h1 style="color: white;font-size: 40px;padding: 0%;"><em>Kickstart Your Career Here!!</em></h1></center>
+        <center><h1 style="color: white;font-size: 40px;"><em>Kickstart Your Career Here!!</em></h1></center>
         <center><p style="color: white;margin-left: 300px;font-size: 24px;"><em>- Opportunity awaits — tell us about yourself</em></p></center>
-        <img src="https://media.istockphoto.com/id/1394701218/photo/job-search-concept-find-your-career-woman-looking-at-online-website-by-laptop-computer-people.jpg?s=612x612&w=0&k=20&c=V32cT3dAoI7plQSnV-i7YxP43YvaoyA0jLS4729gNWM=" width="44%" height="83%" style="border-radius: 10px;margin-left: 20px;">
+        <img src="https://media.istockphoto.com/id/1394701218/photo/job-search-concept-find-your-career-woman-looking-at-online-website-by-laptop-computer-people.jpg?s=612x612&w=0&k=20&c=V32cT3dAoI7plQSnV-i7YxP43YvaoyA0jLS4729gNWM=" width="44%" height="84%" style="border-radius: 10px;margin-left: 20px;">
             
             <form>
                 <center><h1 style="color: #2f4050;font-size: 34px;">Registration Form</h1></center>
                 
-                <label>First Name</label>
+                <label for="Job Role">Job Role</label>
+                <input class="inp" type="text" value="Software Developer" readonly disabled> <br><br><br>
+                <label>First Name </label>
                 <input class="inp"  type="text" required placeholder="Enter First Name"><br><br><br>
                 <label>Last Name</label>
                 <input class="inp" type="text" required placeholder="Enter Last Name"><br><br>
@@ -78,7 +81,7 @@
                 <input class="inp" type="number" required placeholder="Enter your Mobile Number"><br><br><br>
                 
                 <label>Email</label>
-                <input class="inp" type="email" required placeholder="Enter Email ID"><br><br><br>
+                <input class="inp" type="email" required placeholder="Enter Email ID"><br><br>
 
                 <label>Skills</label>
                 <div style="display: flex; float: right; margin-right: 10px;">
